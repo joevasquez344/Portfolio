@@ -7,11 +7,11 @@ import Landing from './pages/Landing/Landing';
 
 const App = () => {
   return (
-   <div className="app">
+    <div className="app">
       <Switch>
-      <Route exact path="/" component={Landing} />
-    </Switch>
-   </div>
+        <Route exact path="/portfolio" component={Landing} />
+      </Switch>
+    </div>
   );
 };
 
