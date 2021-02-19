@@ -1,0 +1,26 @@
+.project__list {
+  display: flex;
+}
+
+.project__listSubHeader {
+    font-size: .9rem;
+    margin-left: 5px;
+    color: dodgerblue;
+    background: transparent;
+    border-radius: 500px;
+    border: 1px solid dodgerblue;
+    padding: 2px 15px;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+  }
+
+  .project__listSubHeader:hover {
+    font-size: .9rem;
+    margin-left: 5px;
+    color: white;
+    background: dodgerblue;
+    border-radius: 500px;
+    padding: 2px 15px;
+    cursor: pointer;
+  }
+
