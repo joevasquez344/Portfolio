@@ -7,7 +7,7 @@ import ProjectList from '../../components/ProjectList/ProjectList';
 const Landing = () => {
   return (
     <div className="landing">
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <ProjectList />
     </div>
