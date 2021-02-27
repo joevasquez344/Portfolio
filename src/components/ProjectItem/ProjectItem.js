@@ -5,7 +5,7 @@ const ProjectItem = ({project}) => {
   const [hovering, setHovering] = useState(false);
 
   return (
-    <div
+    <a href={project.url}
       style={{background: project.color}}
       onMouseOver={() => setHovering(true)}
       onMouseOut={() => setHovering(false)}
@@ -21,7 +21,7 @@ const ProjectItem = ({project}) => {
       >
         {hovering ? project.name : null}
       </h3>
-    </div>
+    </a>
   );
 };
 

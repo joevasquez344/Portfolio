@@ -2,7 +2,7 @@ export const data = [
     {
         id: 1,
         name: 'Twitter',
-        url: '',
+        url: 'https://twitter-clone-joeavasquez.herokuapp.com/landing',
         color: '#1DA1F2',
         icon: 'fab fa-twitter fa-2x'
     },
@@ -23,7 +23,7 @@ export const data = [
     {
         id: 4,
         name: 'Twitter',
-        url: '',
+        url: 'https://twitter-clone-joeavasquez.herokuapp.com/landing',
         color: '#1DA1F2',
         icon: 'fab fa-twitter fa-2x'
     },
