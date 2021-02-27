@@ -14,12 +14,9 @@ const ProjectList = () => {
         <span className="project__listSubHeader">View All</span>
       </h2>
       <div className="project__list">
-        {/* <div style={styles.leftArrow}>Left Arrow</div> */}
         {projects.map((project) => {
           return <ProjectItem key={project.id} project={project} />;
         })}
-        {/* <div style={styles.rightArrow}>Right Arrow</div> */}
-
       </div>
     </div>
   );
@@ -30,7 +27,6 @@ const styles = {
     padding: '0 50px'
   },
   header: {
-    // marginLeft: '30px',
     marginBottom: '30px',
     color: '#777',
     fontWeight: 400,
@@ -45,17 +41,5 @@ const styles = {
     padding: '2px 15px',
     cursor: 'pointer',
   },
-  // leftArrow: {
-  //   color: 'blue',
-  //   position: 'absolute',
-  //   left: '0'
-  //   // margin: 'auto 0'
-  // },
-  // rightArrow: {
-  //   color: 'blue',
-  //   position: 'absolute',
-  //   right: '0'
-  //   // margin: 'auto 0'
-  // }
 };
 export default ProjectList;

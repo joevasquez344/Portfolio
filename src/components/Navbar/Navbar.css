@@ -40,21 +40,7 @@ li {
   font-weight: 500;
   color: dodgerblue;
   cursor: pointer;
-  /* margin-left: 30px; */
   margin-left: 60px;
   color: white;
-  /* background: transparent;
-  border-radius: 500px;
-  border: 1px solid dodgerblue;
-  padding: 5px 25px; */
   cursor: pointer;
-  /* transition: .1s ease-in-out; */
 }
-
-/* li:hover {
-    color: white;
-    background: dodgerblue;
-    border-radius: 500px;
-    padding: 5px 25px;
-    cursor: pointer;
-} */

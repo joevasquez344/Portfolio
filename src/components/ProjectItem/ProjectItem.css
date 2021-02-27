@@ -24,7 +24,6 @@
 }
 
 .project__overlay--hidden {
-  /* display: none; */
   position: absolute;
   bottom: -25vh;
   margin: 0;
@@ -37,7 +36,6 @@
 }
 .project__overlay--visible {
   position: absolute;
-  /* display: block; */
   background: linear-gradient(to top, black, #444);
   opacity: 0.5;
   width: 100%;
